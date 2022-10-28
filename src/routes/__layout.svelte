@@ -8,7 +8,7 @@
 </script>
 
 <Navbar color="light" light expand="md">
-    <NavbarBrand href="/">I Am Frontier</NavbarBrand>
+    <NavbarBrand href="/">BioMOBS topological analyses</NavbarBrand>
     <!-- <NavLink href="/api/feature_datapoints.json">Features</NavLink> -->
     <!-- <NavLink href="/">Home</NavLink> -->
     <!-- <NavLink href="/scatter">Scatter</NavLink> -->
