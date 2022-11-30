@@ -1,5 +1,5 @@
-# Viskit
-Viskit is a copy/paste/modify approach for creating visualisation dashboards. It is heavily opinionated but gets the work done. In the BioMOBS workflow this tool integrates with MOBS (https://github.com/driesheylen123/Multi_omics_exploration) and CKG (https://ckg.readthedocs.io/en/latest/INTRO.html).
+# Intro
+In the BioMOBS workflow this tool for topological analyses integrates with MOBS (https://github.com/driesheylen123/Multi_omics_exploration) and CKG (https://ckg.readthedocs.io/en/latest/INTRO.html) to perform clinically relevant pathway analyses. This repository is based on a copy/paste/modify approach for creating visualisation dashboards. 
 
 ## Usage
 - `npx degit https://gitlab.com/vda-lab/viskit --mode=git new_project`
