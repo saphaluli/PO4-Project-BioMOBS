@@ -1,12 +1,30 @@
 # Intro
 In the BioMOBS workflow this tool for topological analyses integrates with MOBS (https://mobs.vercel.app/) and CKG (https://ckg.readthedocs.io/en/latest/INTRO.html) to perform clinically relevant pathway analyses. This repository is based on a copy/paste/modify approach for creating visualisation dashboards. 
 
-## Usage
-- `npx degit https://gitlab.com/vda-lab/viskit --mode=git new_project`
-- `cd new_project`
-- `npm i`
-- Create `.env` (see below)
-- `npm run dev`
+## Running the app locally
+This project is developped in the JavaScript framework [Svelte](https://svelte.dev). To run this application locally, clone the repository to a directory on your computer. *Note that you will need to have [Node.js](https://nodejs.org) installed.*
+
+1. Open the terminal/command promt on your pc.
+2. change the directory to the folder you want to store the application in.
+```bash
+cd Documents\Multi-Omics-Exploration-Tool
+```
+3. Clone this GitHub repository into your folder.
+```bash
+git clone https://github.com/driesheylen123/Multi_omics_exploration.git
+```
+
+5. Install all necessary dependencies. *Make sure [Node.js](https://nodejs.org) is installed on your device*
+```bash
+npm install
+```
+6. Run the application
+```bash
+npm run dev
+```
+7. Navigate to [localhost:3000](http://localhost:3000). You should now see the app running.
+
+
 
 ## Assumptions
 - The data is from an ArangoDB database.
