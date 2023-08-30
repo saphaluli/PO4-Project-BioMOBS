@@ -25,8 +25,8 @@ npm install
 ```bash
 npm run dev
 ```
-7. Navigate to [localhost:3000](http://localhost:3000). This is where you should see the app running once you have put the json files from BioMOBS-topological-analyses
-/data into an ArangoDB databases and linked that database correctly to the visualisations by filling in the connection details in the .env file.
+7. Navigate to [localhost:3000](http://localhost:3000). This is where you should see the app running once you have put the json files from  the BioMOBS-topological-analyses
+/data folder into an ArangoDB database. Below is explained how you can connect your ArangoDB database to these scripts.
 
 
 
