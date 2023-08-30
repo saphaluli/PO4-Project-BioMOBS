@@ -39,9 +39,10 @@ VITE_DB=your_database_name
 VITE_USER=your_user
 VITE_PASSWORD=your_password
 ```
+Please insert the appropriate information to link with your data.
 
 - The actual access through the data is defined in endpoints, defined in `routes/api` (OBSOLETE files). Typically, there are different endpoints for different datasets or types of data. For example, pointing to different tables in the database if this makes sense. These endpoints basically contain the AQL query to get the data from the database. TIP: while developing, check the contents of these endpoints by going to e.g. http://localhost:3000/api/datapoints.json.
-- Any reshaping of the data (e.g. adding a `source` and `target` to edges if only `_from` and `_to` were defined) is done in the endpoints. Example formats of how  the data must be stored in the ArangoDB database is demonstrated in the 'data/' folder. The json files there can be directly stored in a ArangoDB database and called in the endpoints for a try-out of this design. The 'data/BioMOBS_stad.ipynb' file shows how you can read the data to apply this toplogicial analyses visual.
+- Any reshaping of the data (e.g. adding a `source` and `target` to edges if only `_from` and `_to` were defined) is done in the endpoints. Test data is available in the 'data/' folder of this repository. The json files there can be directly stored in a ArangoDB database and called in the endpoints for a try-out of this topological visual design. The 'data/BioMOBS_stad.ipynb' file shows how you can read-in your own data into your ArangoDB database to apply this toplogicial analyses visual upon.
 
 ## Inspiration:
 - https://gitlab.com/JelmerBot
